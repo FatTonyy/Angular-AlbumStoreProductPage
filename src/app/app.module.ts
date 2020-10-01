@@ -9,12 +9,14 @@ import { ProductDescriptionComponent } from "./product-description/product-descr
 
 // Assignment imports
 import { ProductService } from "./product.service";
+import { ProductTracklistingComponent } from './product-tracklisting/product-tracklisting.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductPageComponent,
     ProductDescriptionComponent,
+    ProductTracklistingComponent,
   ],
   imports: [BrowserModule, FormsModule, HttpModule],
   providers: [ProductService],
